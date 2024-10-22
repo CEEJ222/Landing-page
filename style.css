@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body default styles */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1 {
+    font-size: 49px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f2937;
+    width: 100%;
+}
+
+.navlinks {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    max-height: 40px;
+    width: auto;
+}
+
+/* Banner section styles */
+.banner-container {
+    display: flex;
+    gap: 50px;
+    align-items: center; /* Vertically center the image and text */
+    background-color: #1f2937;
+    padding: 40px 20px; /* Add padding for space */
+    width: 100%;
+}
+
+.banner-cta {
+    max-width: 40%;
+    color: white;
+    padding: 0px 60px;
+}
+
+.header {
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.subtext {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.banner-image img {
+    max-width: 800px;
+    height: auto;
+    padding: 0px 60px;
+}
+
+/* Button styling */
+.primary-button {
+    background-color: #3882f6;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.primary-button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Four Boxes Section */
+.service-section {
+    padding: 40px 20px;
+}
+
+.service-section h2 {
+    text-align: center;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-left: auto;
+    gap: 40px;
+}
+
+.box {
+    border: 3px solid #3882f6;
+    width: 150px; /* Four boxes, each taking up ~22% of the space */
+    height: 150px;
+    border-radius: 10px;
+}
+
+.review-section {
+    background-color: rgb(244, 242, 242);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-box {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 80px 60px;
+    }
+
+.text {
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.signature {
+    font-size: 20px;
+    font-weight: bold;
+    align-self: end;
+}
+
+.cta-section {
+    width:100%;
+    background-color: white;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.cta {
+    width: 75%;
+    max-width: 1200px;
+    height: auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 8px;
+)
+
+.cta-text {
+    flex: 1;
+}
+
+.right-button {
+    margin-left: auto;
+}
+
+.cta-header {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 6px;
+    
+}
+
+.cta-subtext {
+    color: white;
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+
+.secondary-button {
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 12px;   
+}

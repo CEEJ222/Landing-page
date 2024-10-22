@@ -6,13 +6,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Landing Page</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- Main content goes here -->
-    <h1>Welcome to My Landing Page</h1>
-    <p>This is a sample landing page for my project.</p>
-
-    <!-- Add more HTML content as needed -->
+    <div class="header-container">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#"> Header Logo </a>
+            </div>
+            <ul class="navlinks">
+                <li><a href="#">Header link one</a></li>
+                <li><a href="#">Header link two</a></li>
+                <li><a href="#">Header link three</a></li>
+            </ul>
+        </nav>
+        <div class="banner-container">
+            <div class="banner-cta">
+                <h1 class="header">This website is awesome</h1>
+                <p class="subtext">This website has some subtext that goe here under the main title. It's a smaller font and color is lower contrast</p>
+                <button class="primary-button"><a href="#">Sign up</a></button>
+            </div>
+            <div class="banner-image">
+                <img src="Screenshot.png" alt="banner image that is blank">
+            </div>
+        </div>
+    </div>
+    <div class="service-section">
+        <h2>Some random information.</h2>
+        <div class="box-container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="review-section">
+        <div class="quote-box">
+            <p class="text">
+                This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            </p>
+            <p class="signature">
+                -Thor, God of Thunder
+            </p>
+        </div>
+    </div>
+    <div class="cta-section">
+        <div class="cta">
+            <div class="cta-text"> 
+                <p class="cta-header">Call to action! It's time!</p>
+                <p class="cta-subtext">Sign up for our product by clicking that button right over there</p>
+            </div>
+            <div class="right-button">
+                <button class="secondary-button">Sign up</button>
+            </div>
+        </div> <!-- Closed the cta div properly -->
+    </div> <!-- Closed the cta-section div properly -->
 
     <script src="script.js"></script>
 </body>
