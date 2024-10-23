@@ -20,11 +20,17 @@ h2 {
 }
 
 /* Navbar styles */
+.header-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 20px 40px;
     background-color: #1f2937;
     width: 100%;
 }
@@ -54,16 +60,15 @@ h2 {
 .banner-container {
     display: flex;
     gap: 50px;
-    align-items: center; /* Vertically center the image and text */
-    background-color: #1f2937;
-    padding: 40px 20px; /* Add padding for space */
+justify-content: space-between;    background-color: #1f2937;
+    padding: 40px; /* Add padding for space */
     width: 100%;
 }
 
 .banner-cta {
-    max-width: 40%;
+    max-width: 50%;
     color: white;
-    padding: 0px 60px;
+    padding-right 40px;
 }
 
 .header {
@@ -79,9 +84,8 @@ h2 {
 }
 
 .banner-image img {
-    max-width: 800px;
+    max-width: 400px;
     height: auto;
-    padding: 0px 60px;
 }
 
 /* Button styling */
@@ -171,7 +175,7 @@ h2 {
     align-items: center;
     padding: 40px 80px;
     border-radius: 8px;
-)
+}
 
 .cta-text {
     flex: 1;
